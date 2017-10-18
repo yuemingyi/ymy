@@ -1,0 +1,31 @@
+<html>
+  <head>
+     
+    <title>My JSP 'MyJsp.jsp' starting page</title>
+     
+     
+    <script type="text/javascript">
+    function login(){
+        var username=window.document.getElementById("username").value;
+        var password=window.document.getElementById("password").value;
+        if(username=="admin" && password=="admin")
+            {
+            alert("µÇÂ¼³É¹¦£¡");
+window.location.href='we.html';
+            }else{
+                alert("µÇÂ¼Ê§°Ü£¡");
+                return false;
+                 
+            }
+         
+    }
+    </script>
+ 
+  </head>
+   
+  <body>
+    <input type="text" id="username"/>
+     <input type="password" id="password"/>
+     <input type="button" onclick="login()" value="µÇÂ¼"/>
+  </body>
+</html>
