@@ -1,4 +1,9 @@
+<html>
 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>可查询批量生成18位身份证号码 by yueliang</title>
+<script language="JavaScript">
 <!--
 var onlyCode=new Array(110000,
 110100,
@@ -7108,3 +7113,19 @@ function createid() {
     count.select();
 }
 //-->
+</script>
+</head>
+
+<body>
+
+使用说明：<br>
+    在“值”中输入阿拉伯数字，点击“生成”，可以批量生成随机身份证号码！ <hr>
+<div id="query" align="center">
+ 值:<input id="txt" type="text" name="qrytxt" size="20" value="1"> <br>
+ <br>
+ <input type="button" value="生成" name="btncreate" onclick="createid()"> <hr>
+ <div id="info" align="left">
+ </div>
+</div>
+</body>
+</html>
